@@ -9,7 +9,7 @@ import (
 	"github.com/XinFinOrg/XDPoSChain/ethdb"
 )
 
-const defaultCacheLimit = 1024
+const defaultCacheLimit = 40960
 
 type XDCXDAO interface {
 	// for both leveldb and mongodb

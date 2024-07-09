@@ -28,7 +28,7 @@ const (
 	ProtocolName       = "XDCxlending"
 	ProtocolVersion    = uint64(1)
 	ProtocolVersionStr = "1.0"
-	defaultCacheLimit  = 1024
+	defaultCacheLimit  = 40960
 )
 
 var (

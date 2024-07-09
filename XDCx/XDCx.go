@@ -27,7 +27,7 @@ const (
 	ProtocolVersion    = uint64(1)
 	ProtocolVersionStr = "1.0"
 	overflowIdx        // Indicator of message queue overflow
-	defaultCacheLimit  = 1024
+	defaultCacheLimit  = 40960
 	MaximumTxMatchSize = 1000
 )
 

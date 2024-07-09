@@ -45,8 +45,8 @@ var DefaultConfig = Config{
 	},
 	NetworkId:     88,
 	LightPeers:    100,
-	DatabaseCache: 768,
-	TrieCache:     256,
+	DatabaseCache: 40960,
+	TrieCache:     10240,
 	TrieTimeout:   5 * time.Minute,
 	GasPrice:      big.NewInt(0.25 * params.Shannon),
 
